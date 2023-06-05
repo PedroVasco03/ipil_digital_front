@@ -1,0 +1,97 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.div{
+    width: 200px;
+    height:  200px;
+    box-shadow: 1px 1px 20px #0000008c;
+    background-color: #18181830;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    margin: 20px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div::before{
+    content: '';
+    background-image: conic-gradient(
+        #ff0052 20deg,
+        transparent 120deg
+    );
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    animation: rotate 2s linear infinite;
+}
+
+.div::after{
+    width: 190px;
+    height: 190px;
+    background: linear-gradient(45deg,#0d4d71,#051a2d);
+    text-transform: uppercase;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    box-shadow: inset  2px 2px 10px 5px #0000008c;
+}
+
+.first::after{
+    content: 'Coordenador';
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+.content{
+    position: relative;
+}
+
+.third::after{
+    content: 'Estudante';
+}
+
+.second::after{
+    content: 'Encarregado';
+}
+
+.second::before{
+    background-image: conic-gradient(
+        #1e00ff 20deg,
+        transparent 120deg
+    );
+}
+
+.third::before{
+    background-image: conic-gradient(
+        #00ff04 20deg,
+        transparent 120deg
+    );
+}

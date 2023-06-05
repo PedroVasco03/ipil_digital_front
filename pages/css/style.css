@@ -1,0 +1,47 @@
+*{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar-track{
+   border-radius: 0px;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(12, 48, 88);
+}
+
+.float-right{
+    float: right;
+}
+#button-color{
+    background-color: #276E96;
+    border: none;
+    border-radius: 0px;
+}
+
+#button-color:hover{
+ background-color: #1b587c;   
+}
+
+
+
+
+.bold{
+    font-weight: bold;
+}
+.block{
+    display: flex;
+    justify-content: end;
+}
+
+#footer{
+    background-color: #051A2D;
+}

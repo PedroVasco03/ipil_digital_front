@@ -1,0 +1,48 @@
+#background{
+    background-color:#276E96 ;
+}
+.theme{
+    background-color:#276E96 ;
+    color: white;
+    border: 0px;
+    border-radius: 4rem;
+    padding: .4rem;
+    margin-top: 2rem;
+}
+.theme:hover{
+    cursor: pointer;
+    background-color: #1b587c;
+}
+.active{
+    background-color:#1b587c;
+    color: white;
+    border: 0px;
+    border-radius: 4rem;
+    padding: .4rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.position{
+    padding-top: 3rem;
+    margin-top: 60px ;
+}
+.sticky{
+    position: fixed;
+    overflow-y: auto;
+}
+@media screen and (max-width:840px) {
+    .theme p{
+        display: none;
+    }
+    .theme{
+        display: flex;
+        justify-content: center;
+    }   
+    .active p{
+        display: none;
+    }
+    .active{
+        display: flex;
+        justify-content: center;
+    }
+}

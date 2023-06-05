@@ -1,0 +1,38 @@
+.nav{
+    background-color: white;
+    width: 100%;
+    height: 70px; 
+    position: fixed;
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+}
+
+.li{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.nav_item{
+    font-size: 15pt;
+    font-weight: bold;
+    color: black;
+}
+
+.i{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.digital{
+    font-weight: 900;
+    color: #004065;
+}

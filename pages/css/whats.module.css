@@ -1,0 +1,25 @@
+.container_sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.text{
+    padding: 20px;
+    z-index: 1;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.imgCont{
+    /* background-color: aqua; */
+}
+
+@media (max-width:700px) {
+    .container_sobre{
+        flex-wrap: wrap;
+    }
+}

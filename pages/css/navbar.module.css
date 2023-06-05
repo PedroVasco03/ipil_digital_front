@@ -1,0 +1,75 @@
+#brand{
+    width: 30%;
+    z-index: 2;
+} 
+.nav{
+    position: relative;
+    background: linear-gradient(343.31deg, rgba(34, 146, 209, 0.4) 31.34%, rgba(34, 146, 209, 0) 76.64%), #051A2D;
+    border-bottom-left-radius: 60px;
+    padding: 1.2rem;
+    top: -10px;
+    left: 12px;
+    width: 70%;
+    z-index: 1;
+}
+
+#logo{
+    font-weight: bold;
+    color: black;   
+}
+
+
+#collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.flexible{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+}
+.toogle{
+    display: none;
+}
+
+#offcanvasNavbar{
+    display: none;
+    background: linear-gradient(343.31deg, rgba(34, 146, 209, 0.4) 31.34%, rgba(34, 146, 209, 0) 76.64%), #051A2D;
+}
+.textBlank{
+    color: white;
+    font-size: 1rem;
+}
+.textBlank:hover{
+    color:#99cbfa;
+}
+.textBlank:focus{
+    color: #99cbfa;
+}
+
+
+@media screen and (max-width:760px){
+    #logo{
+        font-weight: bold;
+        color:rgb(0, 0, 0);   
+        
+    }
+    .flexible{
+        display: none;
+    }
+    .toogle{
+        display: block;
+    } 
+    #offcanvasNavbar{
+        width: 300px;
+    }
+   
+    
+  
+   
+    #offcanvasNavbar{
+        display: block;
+    }
+   
+}

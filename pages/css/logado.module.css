@@ -1,0 +1,19 @@
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    overflow: hidden;
+}
+
+.side{
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.content{
+    width: 100%;
+    grid-column: 2;
+    margin-top: 70px;
+    overflow: hidden;
+}
