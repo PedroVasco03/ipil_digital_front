@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    overflow: hidden;
 }
 
 .content{
@@ -21,7 +21,7 @@
 }
 
 .content .h1{
-    font-size: 100px;
+    font-size: 4rem;
     color: #fff;
     font-weight: 600;
 }

@@ -5,7 +5,7 @@ import Head from "next/head";
 
 const Main = () => {
     return(
-        <>
+        <> 
         <Head>
             <title>Entrar como ?</title>
         </Head>

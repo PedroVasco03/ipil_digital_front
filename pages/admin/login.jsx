@@ -4,7 +4,7 @@ import { Button, Input, Label } from "reactstrap"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import axios from "axios"
-import Head from '/next/head'
+import Head from "next/head"
 
 function Login(){
     const [danger, setDanger] = useState('')

@@ -17,7 +17,6 @@ function Settings(){
         const data = await JSON.parse(localStorage.getItem('alunoData'))
         setAluno(data)
         console.log(data)
-    
     }
     const deleteAluno = async ()=>{
         const data = await JSON.parse(localStorage.getItem('alunoData'))

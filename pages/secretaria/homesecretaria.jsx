@@ -1,14 +1,13 @@
 import Image from "next/image"
 import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from "reactstrap"
 import { useState } from "react"
-import ModalComponent from "../coordenacao/components/modal"
-import Head from 'next/head'
-import ModalNoSchedule from "../coordenacao/components/modalNoSchedule"
+import ModalComponent from '../coordenacao/components/modal'
+import Head from "next/head"
 import empty from '../../public/images/images-system/empty.png'
 import styleSide from'../css/sideBar.module.css'
 import styleGeral from '../css/logado.module.css'
-import NavBarSecretaria from "./navbar"
-import SideBarSecretaria from "./sidebar"
+import NavBarSecretaria from './navbar'
+import SideBarSecretaria from './sidebar'
 
 function HomeSecretaria({users}){
     const [modal, setModal] = useState(false)
@@ -43,13 +42,10 @@ function HomeSecretaria({users}){
                         <div className="d-flex flex-column align-items-center w-100">
                             <Image  className={styleSide.home_img} src={empty} />
                             <p>Nenhuma actividade.</p>
-                            
                         </div>
-                         
                     </div>
                 </div>
         </div>
     );
 }
 export default HomeSecretaria
-
